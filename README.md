@@ -1,4 +1,4 @@
-# Twitter Fischnetz
+# Twitter Fishnet
 Which experts am I missing for my panel? Which organisations are working on AI ethics in Germany? Who should I invite to our next workshop on cyber security? Whom should I send our expert survey? 
 
 This method helps to expand the circle of relevant actors for questions like these using Tweepy - a Python library for accessing the Twitter API. It involves the following three steps:  
@@ -9,7 +9,8 @@ This method helps to expand the circle of relevant actors for questions like the
 
 __Notes:__ 
 - Consider GDPR given the involvement of personal data. 
-- You can sort the list in step (2) by the relative indegree centrality by dividing through the number of followers each account has. This improves the results in some cases and tends to highlight smaller accounts. 
+- You can sort the list in step 2 by the relative indegree centrality by dividing through the number of followers each account has. This improves the results in some cases and tends to highlight smaller accounts. 
+- Highlighting or filtering users with relevant keywords in their Twitter bio (like "journalist" or "cyber") can ease the manual sorting in step 3.
 - Instead of a followee network, you can alter the code to obtain a retweets or mentions network. 
 - You can iterate step 1 by modifying the seed based on the initial results to refine your outcome. 
 
