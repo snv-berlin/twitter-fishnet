@@ -63,4 +63,4 @@ Default arguments are as follows:
 * seed list of usernames is accessed from the *username* column in `"../data/usernames.csv"`
 
 # License
-MIT licence. If you use the fishnet method, we appreciate a reference. :wink:
+[MIT licence](https://github.com/snv-berlin/twitter-fishnet/blob/main/LICENSE). If you use the fishnet method, we appreciate a reference. :wink:
